@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family: sans-serif;
+list-style: none;
+}
+.navbar {
+    width: 100%;
+    height: 80px;
+    display: flex; 
+    flex-wrap:wrap;
+    line-height: 40px;
+    background-color: #13c39a;
+}
+.navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.navbar ul li {
+   font-size: 20px;
+   font-weight: 700px;
+
+}
+.navbar ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    cursor: pointer;
+        color: white
+}
+.navbar ul li a:hover {
+    text-decoration: underline;
+    color: blue;
+   text-decoration-thickness: 3px;      /* Thickness of underline */
+    text-underline-offset: 20px;          /* Distance from text */
+    text-decoration-color: #ff9800;      /* Underline color (optional) */
+}
+.navbar ul li a:active {
+    text-decoration: none;
+    background: none;
+}
