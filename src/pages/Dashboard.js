@@ -4,7 +4,7 @@ const Dashboard = () => {
   return (
     <div className="page">
       <h2>Dashboard</h2>
-      <p>Welcome to the Customer Sentiment Analysis Tool.</p>
+      <p>Welcome to the Customer-Sentiment-Analysis-Tool-Frontend.</p>
     </div>
   );
 };
